@@ -1,4 +1,4 @@
-/*iii) Write a program to swap two numbers
+/* Write a program to swap two numbers
 
 Aim: To write a C program to swap two numbers
 
@@ -10,7 +10,7 @@ Step 4 :X = Y
 Step 5 :Y = Z
 Step 6 : PRINT X , Y
 Step 7 : Stop
-Program:-*/
+Program:--------------------------------------*/
 
 #include<stdio.h>
 #include<conio.h>
