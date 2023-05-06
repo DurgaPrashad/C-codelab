@@ -1,0 +1,80 @@
+/*Write C programs that implement stack (its operations) using
+i) Arrays
+ii) Pointers
+Write C programs that implement stack (its operations) usingArrays
+Aim: To write a C program to implement stack using Arrays
+Program:*/
+#include<stdio.h>
+#include<conio.h>
+#define MAX 5
+int top=-1,s[MAX];
+void push();
+void pop();
+void display();
+int main()
+{
+int choice;
+clrscr();
+do{
+printf("\n\n1.Push an element in a stack\n");
+printf("2. Pop an element from stack\n");
+printf("3. Display elements from stack\n");
+printf("4. Exit\n");
+printf("\nEnter your choice...\n");
+scanf("%d",&choice);
+switch(choice)
+ {
+case 1: push();
+break;
+case 2: pop();
+break;
+case 3: display();
+break;
+case 4: exit(0);
+default:printf("invalid choice entered\n");
+break;
+ }
+ }while ( choice !=4);
+getch();
+return 0;
+}
+void push()
+{
+intelem;
+if(top==MAX-1)
+ {
+printf("\nOverflow");
+return;
+ }
+else{
+printf("Enter the element to be pushed\n");
+scanf("%d",&elem);
+top=top+1;
+s[top]=elem;
+ }
+}
+void pop()
+{
+if(top==-1)
+ {
+printf("Underflow\n");
+ }
+else{
+printf("Element popped is %d",s[top]);
+top--;
+ }
+}
+void display()
+{
+if(top==-1)
+ {
+printf("Stack is empty\n");
+ }
+else{
+for(int i=0;i<=top;i++)
+ {
+printf("%d ",s[i]);
+ }
+ }
+}
+
