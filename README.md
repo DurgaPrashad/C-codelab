@@ -9,7 +9,7 @@ Usage
 Contributing
 License
 ℹ️ About
-In this repository, you will find a compilation of over 60 C programming language programs that I completed as part of my first-semester coursework in college. These programs were designed to help me practice and reinforce my understanding of fundamental programming concepts using the C language.
+In this repository, you will find a compilation of over 50 C programming language programs that I completed as part of my first-semester coursework in college. These programs were designed to help me practice and reinforce my understanding of fundamental programming concepts using the C language.
 
 🚀 Getting Started
 To run these programs, you will need a C compiler installed on your machine. You can use any C compiler of your choice, such as GCC or Clang. Additionally, some programs may have specific dependencies or instructions, which will be outlined in their respective program files.
